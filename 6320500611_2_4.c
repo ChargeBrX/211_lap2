@@ -15,8 +15,9 @@ int main()
         if((int)emo >=65&&(int)emo<=73)
             printf("(^_^)");
         else if((int)emo >=74&&(int)emo<=82)
-            printf("(*0*)");
-        else printf("(T_T)");
+            printf("(*o*)");
+        else if((int)emo >=83&&(int)emo<=90)
+            printf("(T_T)");
 
     }
     else if(day%2==0)
@@ -24,8 +25,9 @@ int main()
         if((int)emo >=65&&(int)emo<=73)
             printf("{@_@}");
         else if((int)emo >=74&&(int)emo<=82)
-            printf("{*V*}");
-        else printf("{x_x}");
+            printf("{*v*}");
+        else if((int)emo >=83&&(int)emo<=90)
+            printf("{x_x}");
     }
 
     if(day%10==5)
