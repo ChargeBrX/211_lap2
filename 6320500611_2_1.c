@@ -1,49 +1,47 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,x;
-
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&c);
+    unsigned a,b,c,x;
+    char grad;
+    scanf("%u",&a);
+    scanf("%u",&b);
+    scanf("%u",&c);
 
     x = a+b+c;
 
-    if(a>=0&&a<=30&&b>=0&&b<=30&&c>=0&&c<=40)
-    {
-        if(x >=80)
+        if(x>=80&&x<=100)
         {
             printf("A");
         }
-        else if(x >= 75)
+        else if(x>=75&&x<80)
         {
             printf("B+");
         }
-        else if(x >= 70)
+        else if(x>=70&&x<75)
         {
             printf("B");
         }
-        else if(x>=65)
+        else if(x>=65&&x<70)
         {
             printf("C+");
         }
-        else if(x >= 60)
+        else if(x>=60&&x<65)
         {
             printf("C");
         }
-        else if(x >= 55)
+        else if(x>=55&&x<60)
         {
             printf("D+");
         }
-        else if(x >= 50)
+        else if(x>=50&&x<55)
         {
             printf("D");
         }
-        else if(x <50)
+        else if(x<50&&x>=0)
         {
             printf("F");
         }
-    }
+
     return 0;
 
 }
