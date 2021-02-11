@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    float time,mon,x,y,z,i,k,j;
+    float time,mon,x,y,z,i,j;
     char pro;
 
     scanf("%c",&pro);
